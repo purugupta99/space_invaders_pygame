@@ -21,14 +21,14 @@
 
 # Controls:
 
-|      Moves      | Keyboard input |
-|:---------------:|:--------------:|
-| Move left  	  |     A Key      |
-| Move right 	  |     D Key      |
-| Slow Missile    |    Space Key   |
-| Fast Missile    |     S Key      |
-| Pause           |     P Key      |
-| Quit            |     Q Key      |
+|      Moves      | Keyboard input  |
+|:---------------:|:---------------:|
+| Move left  	  |   A or UP Key   |
+| Move right 	  |  D or DOWN Key  |
+| Slow Missile    |    Space Key    |
+| Fast Missile    |      S Key      |
+| Pause           |      P Key      |
+| Quit            |      Q Key      |
 
 
 #								GOOD LUCK

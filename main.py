@@ -231,11 +231,13 @@ def game_loop(start_time):
 
                 x_lim_l = display_width/16 - ship_width/2
                 x_lim_r = display_width - (display_width/8+ship_width+1)/2
-                if event.key == K_a and ship.x_pos > x_lim_l:
-                    ship.moveLeft()
+                if event.key == K_a or event.key == K_LEFT:
+                    if ship.x_pos > x_lim_l:
+                        ship.moveLeft()
 
-                if event.key == K_d and ship.x_pos < x_lim_r:
-                    ship.moveRight()
+                if event.key == K_d or event.key == K_RIGHT:
+                    if ship.x_pos < x_lim_r:
+                        ship.moveRight()
 
         current_time = pygame.time.get_ticks()
 
